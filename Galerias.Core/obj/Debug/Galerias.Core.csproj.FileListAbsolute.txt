@@ -1,0 +1,9 @@
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\bin\Debug\Galerias.Core.dll
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\bin\Debug\Galerias.Core.pdb
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\bin\Debug\Galerias.Model.dll
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\bin\Debug\Galerias.Model.pdb
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\obj\Debug\Galerias.Core.csproj.AssemblyReference.cache
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\obj\Debug\Galerias.Core.csproj.CoreCompileInputs.cache
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\obj\Debug\Galerias.Core.csproj.CopyComplete
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\obj\Debug\Galerias.Core.dll
+D:\BIBLIOTECA PERSONAL\Programación\C shar\Galerias\Galerias.Core\obj\Debug\Galerias.Core.pdb
