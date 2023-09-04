@@ -122,9 +122,5 @@ namespace Galerias.Model
         /// Chequeo de fisuración (170 MPa < fsadm < 250) y (fs < fsadm)
         /// </summary>
         public string ChequeoFisuracion { get; set; }
-
-
-
-
     }
 }

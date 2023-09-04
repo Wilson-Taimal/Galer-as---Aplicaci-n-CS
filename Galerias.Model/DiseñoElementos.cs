@@ -99,7 +99,7 @@ namespace Galerias.Model
 
 
         // -------------------------------------------------------------------------------------------------------------------------------
-        // Diseño por durabilidad y chqueo de fisuración
+        // Diseño por durabilidad y chequeo de fisuración
 
         public double EsfuerzoAcero(double Ec, double preq, double Ms, double As, double d)
         {            

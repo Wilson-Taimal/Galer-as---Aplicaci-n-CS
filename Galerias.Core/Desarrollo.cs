@@ -10,9 +10,9 @@ namespace Galerias.Core
     public class Desarrollo
     {
         // CÁLCULO DE CARGAS Y EMPUJES //
-        public ResultCargas CalculoEmpujes(GeomEstructura GeomEst, Suelo suelo, Cargas cargas)
+        public List<ResultCargas> CalculoEmpujes(GeomEstructura GeomEst, Suelo suelo, Cargas cargas)
         {
-
+            List<ResultCargas> listaresultado = new List<ResultCargas>();
             ResultCargas resulCargas = new ResultCargas();
 
             if (suelo.H1 == 0)
@@ -36,7 +36,9 @@ namespace Galerias.Core
                 resulCargas.LSs_par = cargas.SobrecargaVivaS_par(suelo.fis, suelo.rs);
                 resulCargas.LSi_par = cargas.SobrecargaVivaI_par(GeomEst.HT, suelo.fis, suelo.rs);
             }
-            return resulCargas;
+
+            listaresultado.Add(resulCargas);
+            return listaresultado;
         }
         // ------------------------------------------------------------------------------------------------------------------------------- //
 
@@ -44,12 +46,15 @@ namespace Galerias.Core
 
         // ===== ANALISIS DE ESTABILIDAD ===== //
 
-        public ResultEstabilidad CalculoEstabiliada(Estabilidad estabilidad, Suelo suelo)
+        public List<ResultEstabilidad> CalculoEstabiliada(Estabilidad estabilidad, Suelo suelo)
         {
+            List<ResultEstabilidad> listaresultado = new List<ResultEstabilidad>();
             ResultEstabilidad resultEstabilidad = new ResultEstabilidad();
             resultEstabilidad.Esfuerzo = estabilidad.Esfuerzo(estabilidad.Qs, suelo.Qadm);
             resultEstabilidad.Asentamiento = estabilidad.Asentamiento(estabilidad.Si, estabilidad.Sadm);
-            return resultEstabilidad;
+
+            listaresultado.Add(resultEstabilidad);
+            return listaresultado;
         }
         // ------------------------------------------------------------------------------------------------------------------------------- //
 

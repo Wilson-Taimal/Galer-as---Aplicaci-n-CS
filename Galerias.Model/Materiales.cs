@@ -32,7 +32,7 @@ namespace Galerias.Model
         public double Ec;
 
         /// <summary>
-        /// Peso específico del concreto _ [kN]
+        /// Peso específico del concreto _ [kN/m³]
         /// </summary>
         public double rc;
 

@@ -77,7 +77,7 @@ namespace Galerias.View
             cargas.DG = 8.0;
             cargas.DT = 0.60;
             cargas.SentidoMuro = 0;
-            ResultCargas resulCargas = desarrollo.CalculoEmpujes(GeomEst, suelo, cargas);
+            List<ResultCargas> resulCargas = desarrollo.CalculoEmpujes(GeomEst, suelo, cargas);
 
 
             // -------------------------------------------------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ namespace Galerias.View
             estabilidad.Qs = 25.20;
             estabilidad.Si = 0.21;
             estabilidad.Sadm = 2.54;
-            ResultEstabilidad resultEstabilidad = desarrollo.CalculoEstabiliada(estabilidad, suelo);
+            List<ResultEstabilidad> resultEstabilidad = desarrollo.CalculoEstabiliada(estabilidad, suelo);
 
 
             // -------------------------------------------------------------------------------------------------------------------------------
